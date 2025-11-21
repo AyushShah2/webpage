@@ -1,0 +1,71 @@
+.landing-container {
+  background: #22242A;
+  min-height: 100vh;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+
+.landing-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.landing-desc {
+  font-size: 1.3rem;
+  color: #c8c8d0;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.prompt-sections {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prompt-card {
+  background: #272931;
+  border-radius: 12px;
+  padding: 2rem 2rem 1.3rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  text-align: left;
+  width: 450px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.prompt-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  color: #eee;
+}
+
+.prompt-card p {
+  color: #b7bac6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prompt-link {
+  background: #36425a;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.prompt-link:hover {
+  background: #4764a2;
+}
