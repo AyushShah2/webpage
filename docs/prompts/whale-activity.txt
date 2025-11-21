@@ -1,0 +1,45 @@
+**INSTITUTIONAL & WHALE ACTIVITY STOCK ANALYSIS - {TODAY'S DATE}**
+
+Search the following sources for insider and institutional trading activity from the past 3 days:
+- Finviz (insider trading, institutional ownership changes)
+- QuiverQuant (congressional trades, insider trades, institutional flows)
+- WhaleWisdom, Dataroma, or SEC Form 4 filings
+- Major hedge fund 13F filings and recent position changes
+
+**FIND:**
+1. **Recent Insider Activity (Past 3 Days)**: Identify 5-10 stocks with significant insider PURCHASES and SALES by executives, directors, or 10%+ owners. Minimum transaction size: $100k.
+
+2. **Institutional Moves (Past 3 Days)**: Identify major funds (Berkshire Hathaway, ARK, Tiger Global, Citadel, Bridgewater, etc.) that opened new positions or significantly increased/decreased existing holdings.
+
+**FOR EACH STOCK PICK, PROVIDE:**
+
+| Ticker | Current Price | Who's Trading | Trade Type (Buy/Sell) | Size | Date |
+|--------|---------------|---------------|-----------------------|------|------|
+
+**DETAILED ANALYSIS FOR EACH:**
+- **Why they're buying/selling**: What's the bull case? What catalysts exist (earnings, product launch, sector rotation, macro trends)?
+- **Quantitative 30-day price projection**: Based on historical performance after similar insider/institutional activity, technical indicators (RSI, MACD, moving averages), and current momentum - estimate potential price target in 30 days. Show your calculation methodology.
+- **Background supporting the buy**: Company fundamentals, revenue growth, competitive position, recent news, sector tailwinds
+- **Risk factors**: Why this could fail - debt levels, competition, regulatory risks, market conditions, valuation concerns, conflicting signals
+- **Disaster scenarios**: Specific situations where this trade could "end terribly" (e.g., "If earnings miss by >10%", "If Fed raises rates unexpectedly", "If key customer contract lost")
+
+**SECTOR PERFORMANCE**: In tabular format provide which sectors/industries have 
+been performing the best-worst. The sectors can be general (ex: Technology) or 
+specific (ex: Cloud Computing), but try to be as specific as possible. Provide 
+performance for 1 day (previous day), 1 week, and 1 month.
+
+**PORTFOLIO OPTIMIZATION SECTION:**
+After presenting all picks, include this text:
+
+"**PORTFOLIO REVIEW NEEDED**: Please share your current portfolio (tickers and position sizes). I will then:
+- Identify which of today's opportunities best complement your existing holdings
+- Flag any positions you should consider trimming based on recent insider selling
+- Assess concentration risk and diversification gaps
+- Suggest specific entry points and position sizing for new picks"
+
+**IMMEDIATE ACTION ALERTS:**
+- Flag any stocks from common portfolios with heavy insider selling in past 3 days
+- Note any major institutional exits that could signal trouble
+- Highlight urgent opportunities (e.g., insider buying before earnings, unusual whale accumulation)
+
+**FORMAT**: Use tables for stock lists, bullet points for analysis. Make it scannable but comprehensive.
