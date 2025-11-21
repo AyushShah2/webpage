@@ -30,7 +30,17 @@ function PromptPage({ promptFile, title, aiLink }) {
     <div className="centered-content">
       <h2>{title}</h2>
 
-      {/* AI Link Section */}
+      {/* Prompt Display */}
+      <div className="message-block">
+        <div className="markdown-block">
+          <ReactMarkdown>{message}</ReactMarkdown>
+        </div>
+        <button onClick={handleCopyPrompt} className="copy-button">
+          {copied ? "Copied!" : "Copy"}
+        </button>
+      </div>
+
+      {/* AI Link Section - Moved Below */}
       <div className="ai-link-section">
         <p className="ai-link-label">📤 Sharing with your AI Assistant?</p>
         <div className="ai-link-container">
@@ -40,20 +50,10 @@ function PromptPage({ promptFile, title, aiLink }) {
             readOnly
             className="ai-link-input"
           />
-          <button onClick={handleCopyAiLink} className="copy-button-small">
+          <button onClick={handleCopyAiLink} className="copy-button-link">
             {aiLinkCopied ? "Copied!" : "Copy Link"}
           </button>
         </div>
-      </div>
-
-      {/* Prompt Display */}
-      <div className="message-block">
-        <div className="markdown-block">
-          <ReactMarkdown>{message}</ReactMarkdown>
-        </div>
-        <button onClick={handleCopyPrompt} className="copy-button">
-          {copied ? "Copied!" : "Copy"}
-        </button>
       </div>
     </div>
   );
