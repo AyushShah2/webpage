@@ -10,7 +10,6 @@
   color: #eee;
 }
 
-/* Prompt message block */
 .message-block {
   position: relative;
   background: #272931;
@@ -25,7 +24,6 @@
   line-height: 1.6;
 }
 
-/* Original copy button style (top right of prompt) */
 .copy-button {
   position: absolute;
   top: 1rem;
@@ -49,7 +47,6 @@
   background: #2e3548;
 }
 
-/* AI Link Section (below prompt) */
 .ai-link-section {
   background: #2a2d35;
   border-radius: 12px;
@@ -87,7 +84,6 @@
   border-color: #5a8bcd;
 }
 
-/* Copy Link button (matches original copy button style) */
 .copy-button-link {
   background: #36425a;
   color: #fff;
@@ -107,4 +103,85 @@
 
 .copy-button-link:active {
   background: #2e3548;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .centered-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .centered-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .message-block {
+    padding: 1.25rem;
+    padding-top: 3rem; /* Room for copy button */
+  }
+
+  .copy-button {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .ai-link-section {
+    padding: 1rem;
+  }
+
+  .ai-link-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .ai-link-input {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .copy-button-link {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .centered-content {
+    padding: 1rem 0.75rem;
+  }
+
+  .centered-content h2 {
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+  }
+
+  .message-block {
+    border-radius: 8px;
+    padding: 1rem;
+    padding-top: 2.75rem;
+  }
+
+  .copy-button {
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .ai-link-label {
+    font-size: 0.9rem;
+  }
+
+  .ai-link-input {
+    font-size: 0.8rem;
+  }
+
+  .copy-button-link {
+    font-size: 0.9rem;
+  }
+
+  .markdown-block {
+    font-size: 0.95rem;
+  }
 }
